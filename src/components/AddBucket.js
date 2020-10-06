@@ -41,8 +41,6 @@ export class AddBucket extends Component {
 //PropTypes
 AddBucket.propTypes = {
   addBucket: PropTypes.func.isRequired,
-  markComplete: PropTypes.func.isRequired,
-  delBucket: PropTypes.func.isRequired,
 };
 
 export default AddBucket;
