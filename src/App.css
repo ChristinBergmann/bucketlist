@@ -22,6 +22,7 @@ a {
   cursor: pointer;
   background-color: #b3a4b1;
   color: #fff;
+  vertical-align: middle;
 }
 .btn active {
   background-color: rgb(247, 4, 186);
