@@ -18,7 +18,7 @@ export class AddBucket extends Component {
 
   render() {
     return (
-      <form onSubmit={this.onSubmit} style={{ display: "flex", verticalAlign: "text-top" }}>
+      <form onSubmit={this.onSubmit} style={{ display: "flex" }}>
         <input
           type="text"
           name="title"
@@ -31,7 +31,7 @@ export class AddBucket extends Component {
           type="submit"
           value="Add"
           className="btn"
-          style={{ flex: "1" }}
+          style={{ flex: "1", verticalAlign: "text-top" }}
         />
       </form>
     );
