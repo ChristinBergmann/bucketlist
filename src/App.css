@@ -28,7 +28,7 @@ a:hover {
   cursor: pointer;
   background-color: #b3a4b1;
   color: #fff;
-  vertical-align: middle;
+  vertical-align: text-top;
   margin-bottom: 25px;
 }
 .btn:active {
