@@ -22,7 +22,7 @@ export class AddBucket extends Component {
         <input
           type="text"
           name="title"
-          style={{ flex: "10", padding: "5px", marginBottom: "25px" }}
+          style={{inputStyles, flex: "10" }}
           placeholder="whatelse do you wanna do...?"
           value={this.state.title}
           onChange={this.onChange}
@@ -30,8 +30,8 @@ export class AddBucket extends Component {
         <input
           type="submit"
           value="Add"
-          className="btn"
-          style={{ flex: "1", verticalAlign: "text-top" }}
+          // className="btn"
+          style={{btnStyles, flex: "1" }}
         />
       </form>
     );
@@ -43,4 +43,23 @@ AddBucket.propTypes = {
   addBucket: PropTypes.func.isRequired,
 };
 
+const inputStyles = {
+  flex: "10",
+  padding: "5px",
+  marginBottom: "25px",
+};
+
+const btnStyles = {
+  flex: "1",
+  cursor: "pointer",
+  backgroundColor: "#b3a4b1",
+  color: "#fff",
+  // verticalAlign: "sub", 
+  marginBottom: "25px",
+  // webkitWritingMode: "horizontal-tb !important",
+  active: "rgb(247, 4, 186)",
+}
+
 export default AddBucket;
+
+

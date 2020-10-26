@@ -24,16 +24,16 @@ a:hover {
   padding: 0 1rem;
 }
 
-.btn {
+/* .btn {
   cursor: pointer;
   background-color: #b3a4b1;
   color: #fff;
-  /* vertical-align: sub; */
+  vertical-align: sub; 
   margin-bottom: 25px;
-}
-.btn:active {
+} */
+/* .btn:active {
   background-color: rgb(247, 4, 186);
-}
+} */
 
 .checkbox-style {
   margin-right: 15px;
