@@ -18,7 +18,7 @@ export class AddBucket extends Component {
 
   render() {
     return (
-      <form onSubmit={this.onSubmit} style={{ display: "flex" }}>
+      <form onSubmit={this.onSubmit} style={{ display: "flex", marginBottom: "25px" }}>
         <input
           type="text"
           name="title"
@@ -30,7 +30,6 @@ export class AddBucket extends Component {
         <input
           type="submit"
           value="Add"
-          // className="btn"
           style={{btnStyles, flex: "1" }}
         />
       </form>
@@ -44,19 +43,14 @@ AddBucket.propTypes = {
 };
 
 const inputStyles = {
-  flex: "10",
   padding: "5px",
   marginBottom: "25px",
 };
 
 const btnStyles = {
-  flex: "1",
   cursor: "pointer",
   backgroundColor: "#b3a4b1",
   color: "#fff",
-  // verticalAlign: "sub", 
-  marginBottom: "25px",
-  // webkitWritingMode: "horizontal-tb !important",
   active: "rgb(247, 4, 186)",
 }
 
