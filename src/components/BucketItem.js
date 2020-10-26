@@ -6,7 +6,7 @@ export class BucketItem extends Component {
     return {
       backgroundColor: "#ebc0e5",
       padding: "10px",
-      borderBottom: "2px #fff dotted",
+      borderBottom: "1px #fff dotted",
       textDecoration: this.props.bucket.completed ? "line-through" : "none",
     };
   };
@@ -23,6 +23,7 @@ export class BucketItem extends Component {
         <p>
           <input
             type="checkbox"
+            className="checkbox-style"
             onChange={this.props.markComplete.bind(this, id)}
           />
           {"   "}

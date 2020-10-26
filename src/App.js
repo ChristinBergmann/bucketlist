@@ -17,7 +17,7 @@ class App extends Component {
   // jsonPlaceholder as library:
   componentDidMount() {
     axios
-      .get("https://jsonplaceholder.typicode.com/todos?_limit=10")
+      .get("https://jsonplaceholder.typicode.com/todos?_limit=5")
       .then((res) => this.setState({ buckets: res.data }));
   }
 
@@ -57,7 +57,6 @@ class App extends Component {
   };
 
   render() {
-    // console.log(this.state.buckets);
     return (
       <Router>
         <div className="App">

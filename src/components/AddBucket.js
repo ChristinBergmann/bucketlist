@@ -22,7 +22,7 @@ export class AddBucket extends Component {
         <input
           type="text"
           name="title"
-          style={{ flex: "10", padding: "5px" }}
+          style={{ flex: "10", padding: "5px", marginBottom: "25px" }}
           placeholder="whatelse do you wanna do...?"
           value={this.state.title}
           onChange={this.onChange}

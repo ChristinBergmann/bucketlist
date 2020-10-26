@@ -7,11 +7,17 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   line-height: 1.4;
+  background-color: #b3a4b1;
 }
 
 a {
-  color: #331;
+  color: #fff;
   text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  color: rgb(247, 4, 186);
 }
 
 .container {
@@ -23,9 +29,14 @@ a {
   background-color: #b3a4b1;
   color: #fff;
   vertical-align: middle;
+  margin-bottom: 25px;
 }
-.btn active {
+.btn:active {
   background-color: rgb(247, 4, 186);
+}
+
+.checkbox-style {
+  margin-right: 15px;
 }
 
 /* @keyframes App-logo-spin {
